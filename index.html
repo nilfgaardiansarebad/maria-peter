@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мария & Пётр | История Любви</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&family=Marcellus&family=Petit+Formal+Script&family=Dancing+Script:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Анимированные элементы -->
+    <div class="floating-elements">
+        <div class="floating-element element-1">💖</div>
+        <div class="floating-element element-2">✨</div>
+        <div class="floating-element element-3">🌟</div>
+        <div class="floating-element element-4">💫</div>
+        <div class="floating-element element-5">🎀</div>
+    </div>
+
+  
+
+    <!-- Прелоадер -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="love-loader">
+                <div class="heart-spinner">💕</div>
+                <div class="loader-text">Мария & Пётр</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Навигация -->
+    <nav class="love-nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-heart">💝</span>
+                <span class="brand-text">Мария & Пётр</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#love" class="nav-item">Наша Любовь</a>
+                <a href="#story" class="nav-item">История</a>
+                <a href="#moments" class="nav-item">Моменты</a>
+                <a href="#gallery" class="nav-item">Галерея</a>
+                <a href="#diary" class="nav-item">Дневник</a>
+                <a href="#gift" class="nav-item">Подарок</a>
+            </div>
+            <div class="nav-mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главная секция -->
+    <section id="love" class="love-hero">
+        <div class="love-background">
+            <div class="heart-pattern"></div>
+        </div>
+        
+        <div class="love-content">
+            <div class="title-love">
+                <h1 class="main-title">Мария <span class="ampersand">&</span> Пётр</h1>
+                <div class="title-decoration">
+                    <div class="sparkle-left"></div>
+                    <div class="heart-center">💞</div>
+                    <div class="sparkle-right"></div>
+                </div>
+            </div>
+            
+            <div class="love-subtitle">
+                <p class="love-poem">"В каждом взгляде - целая вечность,</p>
+                <p class="love-poem">В каждом прикосновении - бесконечность."</p>
+                <div class="love-date">
+                    <i class="fas fa-heart"></i>
+                    <span>22 ноября 2025 года</span>
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Интерактивная зона -->
+    <section class="interactive-section">
+        <div class="container">
+            <div class="interactive-love">
+                <h3>Наше Пространство Любви</h3>
+                <p class="interactive-description">Создавайте ваши собственные воспоминания вместе</p>
+                <div class="love-actions">
+                    <button class="love-btn add-memory" id="addMemoryBtn">
+                        <i class="fas fa-plus-circle"></i>
+                        Добавить воспоминание
+                    </button>
+                    <button class="love-btn upload-photo" id="uploadPhotoBtn">
+                        <i class="fas fa-camera"></i>
+                        Добавить фото
+                    </button>
+                    <button class="love-btn write-diary" id="writeDiaryBtn">
+                        <i class="fas fa-book"></i>
+                        Запись в дневник
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- История Любви -->
+    <section id="story" class="story-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наша История</h2>
+                <div class="section-sparkle"></div>
+                <p class="section-subtitle">Как две звезды Давида нашли друг друга в бесконечности вселенной</p>
+            </div>
+
+            <div class="love-timeline">
+                <!-- Первая встреча -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-heart">💘</div>
+                        <div class="timeline-date">Ноябрь 2024</div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="story-card">
+                            <div class="card-header">
+                                <h3>Первая Искра</h3>
+                                <div class="card-location">
+                                    <i class="fas fa-star"></i>
+                                    <span>Городской парк</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="story-text">
+                                    <p>Тот ноябрьский вечер изменил всё. В обычном городском парке, среди золотых листьев, наши сердца нашли друг друга. Первый взгляд, первая улыбка, первое прикосновение...</p>
+                                    
+                                    <div class="story-poem">
+                                        <p>"В ноябрьской прохладе, под звёздным покровом,</p>
+                                        <p>Две души встретились в танце судьбы новом."</p>
+                                    </div>
+                                </div>
+                                <div class="story-image">
+                                    <div class="image-frame">
+                                        <img src="centre.jpg" alt="Первая встреча" onerror="this.src='https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'">
+                                        <div class="image-sparkle"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Сочи -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-heart">💖</div>
+                        <div class="timeline-date">26 января 2025</div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="story-card">
+                            <div class="card-header">
+                                <h3>Горные Вершины Чувств</h3>
+                                <div class="card-location">
+                                    <i class="fas fa-mountain"></i>
+                                    <span>Сочи, Роза Хутор</span>
+                                </div>
+                            </div>
+                            <div class="card-body reverse">
+                                <div class="story-image">
+                                    <div class="image-frame">
+                                        <img src="sochi.jpg" alt="Сочи" onerror="this.src='https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'">
+                                        <div class="image-sparkle"></div>
+                                    </div>
+                                </div>
+                                <div class="story-text">
+                                    <p>Заоблачные высоты Сочи стали свидетелями того, как наша любовь окрепла. Среди снежных вершин мы поняли - вместе мы можем покорить любые высоты.</p>
+                                    
+                                    <div class="story-poem">
+                                        <p>"В горах высоких, где небо близко,</p>
+                                        <p>Любовь наша стала чистой и низкой."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Предложение -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-heart">💍</div>
+                        <div class="timeline-date">30 мая 2025</div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="story-card">
+                            <div class="card-header">
+                                <h3>Момент "Да"</h3>
+                                <div class="card-location">
+                                    <i class="fas fa-gem"></i>
+                                    <span>Москва, закат</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="story-text">
+                                    <p>Закат окрасил небо в золотые и розовые тона, когда ты опустился на одно колено. В этом моменте застыла вечность, а кольцо в твоей руке сияло ярче любой звезды.</p>
+                                    
+                                    <div class="story-poem">
+                                        <p>"Закат багряный стал свидетелем важным,</p>
+                                        <p>Мгновенья, что стало для нас бесценным и блажным."</p>
+                                    </div>
+                                </div>
+                                <div class="story-image">
+                                    <div class="image-frame">
+                                        <img src="ring.jpg" alt="Предложение" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'">
+                                        <div class="image-sparkle"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Особенные моменты -->
+    <section id="moments" class="moments-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Жемчужины Воспоминаний</h2>
+                <div class="section-sparkle"></div>
+                <p class="section-subtitle">Моменты, которые стали драгоценными жемчужинами нашей любви</p>
+            </div>
+
+            <div class="moments-grid">
+                <div class="moment-card">
+                    <div class="moment-icon">💫</div>
+                    <h3>Первый Вечер</h3>
+                    <p>Тот самый вечер, когда в синагоге наши взгляды встретились, и мир заиграл новыми красками.</p>
+                    <div class="moment-sparkle"></div>
+                </div>
+
+                <div class="moment-card">
+                    <div class="moment-icon">🌟</div>
+                    <h3>Смех и Радость</h3>
+                    <p>Каждый день, наполненный смехом, когда даже обычные моменты становятся волшебными. </p>
+                    <div class="moment-sparkle"></div>
+                </div>
+
+                <div class="moment-card">
+                    <div class="moment-icon">✨</div>
+                    <h3>Нежные Взгляды</h3>
+                    <p>Те мгновения, когда слова становятся лишними, а взгляды говорят обо всём.</p>
+                    <div class="moment-sparkle"></div>
+                </div>
+
+                <div class="moment-card">
+                    <div class="moment-icon">🎀</div>
+                    <h3>Мечты о Будущем</h3>
+                    <p>Вечера, когда мы строили планы и верили, что вместе нам всё по плечу и постороим еврейское государство.</p>
+                    <div class="moment-sparkle"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наша Вселенная</h2>
+                <div class="section-sparkle"></div>
+                <p class="section-subtitle">Мгновения, запечатленные в вечности</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-frame">
+                        <img src="1.jpg" alt="Нежный взгляд" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h4>Утренняя Нежность</h4>
+                                <p>Взгляды, говорящие о любви громче любых слов</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-frame">
+                        <img src="2.jpg" alt="Счастливые улыбки" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h4>Солнечные Улыбки</h4>
+                                <p>Счастье, которое светит ярче самого солнца</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-frame">
+                        <img src="3.jpg" alt="Романтический вечер" onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h4>Вечер Тайн</h4>
+                                <p>Романтические вечера, когда рождаются самые сокровенные мечты</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-frame">
+                        <img src="4.jpg" alt="Приключения вместе" onerror="this.src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h4>Дорога Вместе</h4>
+                                <p>Каждое путешествие - новая глава нашей истории</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Кнопка добавления фото -->
+            <div class="add-photo-section">
+                <button class="add-photo-btn" id="addGalleryPhoto">
+                    <i class="fas fa-plus"></i>
+                    Добавить своё фото
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Дневник любви -->
+    <section id="diary" class="diary-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Дневник Нашей Любви</h2>
+                <div class="section-sparkle"></div>
+                <p class="section-subtitle">Записывайте ваши самые сокровенные мысли и моменты</p>
+            </div>
+
+            <div class="diary-container">
+                <div class="diary-form-container">
+                    <div class="diary-form">
+                        <h3>Новая запись в дневнике</h3>
+                        <form id="diaryForm">
+                            <div class="form-group">
+                                <input type="text" id="diaryTitle" placeholder="Название записи" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="diaryContent" placeholder="Опишите ваш особенный момент..." rows="6" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="diaryDate">Дата:</label>
+                                <input type="date" id="diaryDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="diaryMood">Настроение:</label>
+                                <select id="diaryMood">
+                                    <option value="💖">Влюблённость</option>
+                                    <option value="😊">Счастье</option>
+                                    <option value="😂">Радость</option>
+                                    <option value="😍">Восхищение</option>
+                                    <option value="🤗">Нежность</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="diary-submit-btn">
+                                <i class="fas fa-feather"></i>
+                                Сохранить в дневник
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="diary-entries-container">
+                    <div class="diary-entries" id="diaryEntries">
+                        <div class="diary-placeholder">
+                            <i class="fas fa-book-open"></i>
+                            <p>Здесь будут ваши записи</p>
+                            <small>Каждая запись - это страница вашей уникальной истории любви</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Философия любви -->
+    <section class="philosophy-section">
+        <div class="container">
+            <div class="philosophy-content">
+                <div class="philosophy-heart">💕</div>
+                <h3>Мудрость Сердца</h3>
+                <div class="philosophy-text">
+                    <p>Любовь — это не поиск идеального человека, а умение увидеть совершенство в несовершенном( в еврее например). Это искусство находить красоту в простом и волшебство в обыденном.</p>
+                    
+                    <p>Наша любовь началась с тихого шепота сердец, который постепенно превратился в прекрасную симфонию двух душ. Каждый день вместе — это новая нота в нашей мелодии, каждый взгляд — новый аккорд.</p>
+                </div>
+                <div class="philosophy-quote">
+                    <p>"Настоящая любовь — это когда две вселенные встречаются и создают новую галактику, где каждая звезда — это общая мечта, а каждое созвездие — совместное воспоминание."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контактная информация -->
+    <section class="contact-love">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-heart">💌</div>
+                <h3>Хотите дополнить нашу историю?</h3>
+                <p class="contact-description">Если у вас есть идеи, которые должны быть частью вашей вселенной любви, свяжитесь со мной!</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-heart"></i>
+                        <span> Мундер</span>
+                    </div>
+                
+                    <div class="contact-item">
+                        <i class="fab fa-telegram"></i>
+                        <span>nilfgaardian_flamengo</span>
+                    </div>
+                </div>
+
+                <div class="contribution-note">
+                    <p><strong>Что можно добавить в нашу вселенную:</strong></p>
+                    <div class="contribution-list">
+                        <div class="contribution-item">
+                            <i class="fas fa-camera"></i>
+                            <span>Новые фотографии</span>
+                        </div>
+                        <div class="contribution-item">
+                            <i class="fas fa-video"></i>
+                            <span>Видео-моменты</span>
+                        </div>
+                        <div class="contribution-item">
+                            <i class="fas fa-history"></i>
+                            <span>Истории и воспоминания</span>
+                        </div>
+                        <div class="contribution-item">
+                            <i class="fas fa-magic"></i>
+                            <span>Идеи для улучшения</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подарок -->
+    <section id="gift" class="gift-section">
+        <div class="container">
+            <div class="gift-content">
+                <div class="gift-header">
+                    <h2>מתנה  هدية</h2>
+                    <div class="gift-subtitle">С любовью от Мундера</div>
+                </div>
+                
+                <div class="gift-message">
+                    <p>Дорогие Мария и Пётр! В этот прекрасный день, когда ваши сердца слились в один ритм,я хочу преподнести вам скромненький подарок, хоть и вы мой исторический враг, но это мне не помешало вас полюбить.</p>
+                    
+                    <div class="gift-poem">
+                        <p>"Пусть ваша любовь сияет ярче самых ярких звёзд Давида,</p>
+                        <p>И каждое мгновение будет наполнено счастьем и верой в чудо."</p>
+                    </div>
+                </div>
+
+                <div class="gift-space">
+                    <div class="gift-heart">🎁</div>
+                    <button id="giftButton" class="gift-button">
+                        <span class="button-text">Получить арабскую премию</span>
+                        <i class="fas fa-heart button-icon"></i>
+                    </button>
+                    <div class="gift-note">
+                        <i class="fas fa-star"></i>
+                        Нажмите, чтобы открыть подарок
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="love-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-heart">
+                    <div class="heart-pulse">💝</div>
+                    <i class="fas fa-infinity"></i>
+                </div>
+                <div class="footer-text">
+                    <p>Создано с бесконечной любовью для Марии и Петра</p>
+                    <p class="footer-quote">"Любовь — это единственная вселенная, которая расширяется с каждым днём"</p>
+                </div>
+                <div class="footer-date">
+                    <p>2025 • Мундер / Константина, Алжир</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для добавления фото -->
+    <div id="photoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Добавить новое фото</h3>
+            <form id="photoForm">
+                <div class="form-group">
+                    <input type="file" id="photoUpload" accept="image/*" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="photoTitle" placeholder="Название фото" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="photoDescription" placeholder="Описание момента..." rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="photoDate">Дата съёмки:</label>
+                    <input type="date" id="photoDate">
+                </div>
+                <button type="submit" class="modal-submit-btn">
+                    <i class="fas fa-upload"></i>
+                    Добавить фото
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
